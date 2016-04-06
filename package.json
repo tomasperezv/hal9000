@@ -1,0 +1,31 @@
+{
+  "name": "hal9000",
+  "version": "1.0.0",
+  "description": "A Bot AI that uses Microsoft's Both Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start-bot": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasperezv/hal9000.git"
+  },
+  "keywords": [
+    "AI",
+    "hal9000",
+    "Microsoft",
+    "Bot",
+    "Framework"
+  ],
+  "author": "Tomás Pérez <t@0x101.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasperezv/hal9000/issues"
+  },
+  "homepage": "https://github.com/tomasperezv/hal9000#readme",
+  "dependencies": {
+    "botbuilder": "^0.7.0",
+    "restify": "^4.0.4"
+  }
+}
